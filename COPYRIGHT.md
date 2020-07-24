@@ -1,0 +1,1 @@
+ Copyright (c) 2020 Cledilson Nascimento https://github.com/cledilsonweb/lontra-validator
