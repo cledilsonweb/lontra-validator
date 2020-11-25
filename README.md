@@ -4,7 +4,7 @@
 [![Software License][ico-license]](LICENSE)
 [![Total Downloads][ico-downloads]][link-downloads]
 
-The lontra-validator is a validator package, a complement to lamina-validator, compatible with validation for laminas-form. It provides an OOP approach.
+The lontra-validator is a validator package, a complement to laminas-validator, compatible with validation for laminas-form. It provides an OOP approach.
 ```
 DateBetween - Checks whether the date is between values entered.
 DateGreaterThan - Checks if date is greater
