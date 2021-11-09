@@ -6,7 +6,7 @@ use InvalidArgumentException;
 use Laminas\Validator\AbstractValidator;
 
 /**
- * The Password class checks whether the value is less then "max" dates using "format" for formatting
+ * The Password class checks if the value is in the specified pattern
  *
  * @license MIT https://opensource.org/licenses/MIT
  */
@@ -44,7 +44,7 @@ class Password extends AbstractValidator
      * 
      * @return void
      */
-    public function __construct(array $options)
+    public function __construct(array $options = [])
     {
         if (!is_array($options)) {
             throw new InvalidArgumentException("Invalid argument: Parameter passed is not an array.");

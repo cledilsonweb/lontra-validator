@@ -7,8 +7,8 @@ use Laminas\Validator\AbstractValidator;
 
 /**
  * The WordCount class checks whether the value is between 
- * the "min" and "max" dates using "format" for formatting.
- * Valid email has the same value as a word
+ * the "min" and "max" or equal "total".
+ * Valid email has the same value as a word.
  *
  * @license MIT https://opensource.org/licenses/MIT
  */
