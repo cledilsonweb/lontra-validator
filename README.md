@@ -10,6 +10,7 @@ DateBetween - Checks whether the date is between values entered.
 DateGreaterThan - Checks if date is greater
 DateLessThan - Checks if date is less
 EndsWith - If text ends with a value
+IsArray - If value is a valid array
 Password - Checks whether the entered value is a valid password with the options uppercase, lowercase, number, special characters.
 StartsWith - If text starts with a value
 WordCount - Validate the number of words in a string
