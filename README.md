@@ -6,6 +6,7 @@
 
 The lontra-validator is a validator package, a complement to laminas-validator, compatible with validation for laminas-form. It provides an OOP approach.
 ```
+ArrayRecordExists - Check if values in array exists on database
 DateBetween - Checks whether the date is between values entered.
 DateGreaterThan - Checks if date is greater
 DateLessThan - Checks if date is less
@@ -17,7 +18,7 @@ WordCount - Validate the number of words in a string
 ```
 ## Dependencies
 
-lontra-validator depends on laminas-validator, maintained by the Linux Foundation
+lontra-validator depends on laminas-validator (and suggested(but not required) laminas-db to compare with the database), maintained by the Linux Foundation
 
 ## Install
 
@@ -68,6 +69,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ``` bash
 $ composer test
 ```
+To run the integration test, you need to enable ```extension=pdo_sqlite```
 
 ## Suggestions and Security
 
