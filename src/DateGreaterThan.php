@@ -22,14 +22,20 @@ class DateGreaterThan extends AbstractValidator
 
     const NOT_GREATER       = 'notGreater';
     const NOT_GREATER_INCLUSIVE = 'notGreaterInclusive';
+
+    /** @deprecated 0.2.2 */
     const IVALID_FORMAT     = 'invalidFormat';
+    /** @deprecated 0.2.2 */
     const IVALID_DATE       = 'invalidDate';
+
+    const INVALID_FORMAT     = 'invalidFormat';
+    const INVALID_DATE       = 'invalidDate';
 
     protected $messageTemplates = [
         self::NOT_GREATER           => "The input is not greater than '%min%'",
-        self::NOT_GREATER_INCLUSIVE    => "The input is not greater than(inclusive) '%min%'",
-        self::IVALID_FORMAT         => "The date is not in '%format%' format",
-        self::IVALID_DATE           => "The parsed date was invalid",
+        self::NOT_GREATER_INCLUSIVE    => "The input is not greater than or equal to '%min%'",
+        self::INVALID_FORMAT         => "The date is not in '%format%' format",
+        self::INVALID_DATE           => "The parsed date was invalid",
     ];
 
     protected $messageVariables = [
